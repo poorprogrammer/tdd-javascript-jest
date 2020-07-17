@@ -1,10 +1,9 @@
 'use strict';
 
-import {Hiker} from './hiker';
+const answer = require('./hiker');
 
 describe('answer', () => {
   it('to life the universe and everything', () => {
-    const hiker = new Hiker();
-    expect(hiker.answer()).toEqual(42);
+    expect(answer()).toEqual(42);
   });
 });
