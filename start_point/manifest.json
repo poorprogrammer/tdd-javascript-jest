@@ -1,5 +1,5 @@
 {
-  "display_name": "Javascript, jasmine",
+  "display_name": "Javascript, jest",
   "image_name": "cyberdojofoundation/javascript_node_jest:a1202a9",
   "visible_filenames": [
     "hiker.test.js",
