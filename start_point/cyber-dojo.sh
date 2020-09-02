@@ -1,4 +1,3 @@
-# set the version to use:
 
 if [ -f .jshintrc ]; then
   jshint --config .jshintrc *.js
