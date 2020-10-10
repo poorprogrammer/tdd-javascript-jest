@@ -1,8 +1,5 @@
 
-if [ -f .jshintrc ]; then
-  jshint --config .jshintrc *.js
-fi
+ln -s /etc/jest/node_modules ${CYBER_DOJO_SANDBOX}/node_modules
 
-if [ $? == 0 ]; then
-  npm run test
-fi
+npm run lint
+npm run test
